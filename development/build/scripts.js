@@ -64,15 +64,14 @@ function createScriptTasks({ browserPlatforms, livereload }) {
       testing: true,
     }),
     // production
-    prod: createTasksForBuildJsExtension({ taskPrefix: 'scripts:core:prod', devMode: true }),
+    prod: createTasksForBuildJsExtension({ taskPrefix: 'scripts:core:prod' }),
   };
   const deps = {
     background: createTasksForBuildJsDeps({
       label: 'bg-libs',
       key: 'background',
-      devMode: true,
     }),
-    ui: createTasksForBuildJsDeps({ label: 'ui-libs', key: 'ui', devMode: true }),
+    ui: createTasksForBuildJsDeps({ label: 'ui-libs', key: 'ui' }),
   };
 
   // high level tasks
