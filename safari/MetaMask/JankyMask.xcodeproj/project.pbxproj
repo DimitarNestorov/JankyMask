@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AD27131A42005F0B91 /* AppDelegate.swift */; };
+		6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */; };
+		6EBC01B327131A42005F0B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */; };
+		6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B427131A42005F0B91 /* Main.storyboard */; };
+		6EBC01BF27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01BE27131A42005F0B91 /* AppDelegate.swift */; };
+		6EBC01C227131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01C027131A42005F0B91 /* Main.storyboard */; };
+		6EBC01CA27131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EBC01D427131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EBC01D327131A42005F0B91 /* JankyMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EBC01DA27131A42005F0B91 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC019D27131A40005F0B91 /* Main.html */; };
+		6EBC01DB27131A42005F0B91 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC019D27131A40005F0B91 /* Main.html */; };
+		6EBC01DC27131A42005F0B91 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC019F27131A40005F0B91 /* Icon.png */; };
+		6EBC01DD27131A42005F0B91 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC019F27131A40005F0B91 /* Icon.png */; };
+		6EBC01DE27131A42005F0B91 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A027131A40005F0B91 /* Style.css */; };
+		6EBC01DF27131A42005F0B91 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A027131A40005F0B91 /* Style.css */; };
+		6EBC01E027131A42005F0B91 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A127131A40005F0B91 /* Script.js */; };
+		6EBC01E127131A42005F0B91 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A127131A40005F0B91 /* Script.js */; };
+		6EBC01E227131A42005F0B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A227131A40005F0B91 /* ViewController.swift */; };
+		6EBC01E327131A42005F0B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A227131A40005F0B91 /* ViewController.swift */; };
+		6EBC01E427131A42005F0B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A327131A41005F0B91 /* Assets.xcassets */; };
+		6EBC01E527131A42005F0B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A327131A41005F0B91 /* Assets.xcassets */; };
+		6EBC01E627131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */; };
+		6EBC01E727131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */; };
+		6EBC021527131A42005F0B91 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
+		6EBC021627131A42005F0B91 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
+		6EBC021727131A42005F0B91 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
+		6EBC021827131A42005F0B91 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
+		6EBC021927131A42005F0B91 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
+		6EBC021A27131A42005F0B91 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
+		6EBC021B27131A42005F0B91 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
+		6EBC021C27131A42005F0B91 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
+		6EBC021D27131A42005F0B91 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
+		6EBC021E27131A42005F0B91 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
+		6EBC021F27131A42005F0B91 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
+		6EBC022027131A42005F0B91 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
+		6EBC022127131A42005F0B91 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
+		6EBC022227131A42005F0B91 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
+		6EBC022327131A42005F0B91 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
+		6EBC022427131A42005F0B91 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
+		6EBC022527131A42005F0B91 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
+		6EBC022627131A42005F0B91 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
+		6EBC022727131A42005F0B91 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
+		6EBC022827131A42005F0B91 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
+		6EBC022927131A42005F0B91 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
+		6EBC022A27131A42005F0B91 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
+		6EBC022B27131A42005F0B91 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
+		6EBC022C27131A42005F0B91 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
+		6EBC022D27131A42005F0B91 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
+		6EBC022E27131A42005F0B91 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
+		6EBC022F27131A42005F0B91 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
+		6EBC023027131A42005F0B91 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
+		6EBC023127131A42005F0B91 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
+		6EBC023227131A42005F0B91 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
+		6EBC023327131A42005F0B91 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
+		6EBC023427131A42005F0B91 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
+		6EBC023527131A42005F0B91 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
+		6EBC023627131A42005F0B91 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
+		6EBC023727131A42005F0B91 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
+		6EBC023827131A42005F0B91 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
+		6EBC023927131A42005F0B91 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
+		6EBC023A27131A42005F0B91 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
+		6EBC023B27131A42005F0B91 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
+		6EBC023C27131A42005F0B91 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
+		6EBC023D27131A42005F0B91 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
+		6EBC023E27131A42005F0B91 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
+		6EBC023F27131A42005F0B91 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
+		6EBC024027131A42005F0B91 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
+		6EBC024127131A42005F0B91 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
+		6EBC024227131A42005F0B91 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
+		6EBC024327131A42005F0B91 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
+		6EBC024427131A42005F0B91 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
+		6EBC024527131A42005F0B91 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
+		6EBC024627131A42005F0B91 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
+		6EBC024727131A42005F0B91 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
+		6EBC024827131A42005F0B91 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
+		6EBC024927131A42005F0B91 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
+		6EBC024A27131A42005F0B91 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
+		6EBC024B27131A42005F0B91 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
+		6EBC024C27131A42005F0B91 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBC01CB27131A42005F0B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBC019727131A40005F0B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBC01C827131A42005F0B91;
+			remoteInfo = "MetaMask Extension (iOS)";
+		};
+		6EBC01D527131A42005F0B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBC019727131A40005F0B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBC01D227131A42005F0B91;
+			remoteInfo = "MetaMask Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EBC01ED27131A42005F0B91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6EBC01CA27131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01F427131A42005F0B91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6EBC01D427131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6EBC019E27131A40005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6EBC019F27131A40005F0B91 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6EBC01A027131A40005F0B91 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6EBC01A127131A40005F0B91 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6EBC01A227131A40005F0B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EBC01A327131A41005F0B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6EBC01AA27131A42005F0B91 /* JankyMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankyMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBC01AD27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EBC01B227131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBC01B527131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBC01B727131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC01BC27131A42005F0B91 /* JankyMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankyMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBC01BE27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBC01C127131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBC01C327131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC01C427131A42005F0B91 /* MetaMask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaMask.entitlements; sourceTree = "<group>"; };
+		6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JankyMask Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBC01CE27131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC01D327131A42005F0B91 /* JankyMask Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JankyMask Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBC01D827131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC01D927131A42005F0B91 /* MetaMask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaMask.entitlements; sourceTree = "<group>"; };
+		6EBC01F927131A42005F0B91 /* ui.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = ui.js; path = ../../../dist/chrome/ui.js; sourceTree = "<group>"; };
+		6EBC01FA27131A42005F0B91 /* home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = home.html; path = ../../../dist/chrome/home.html; sourceTree = "<group>"; };
+		6EBC01FB27131A42005F0B91 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../dist/chrome/background.js; sourceTree = "<group>"; };
+		6EBC01FC27131A42005F0B91 /* intl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = intl; path = ../../../dist/chrome/intl; sourceTree = "<group>"; };
+		6EBC01FD27131A42005F0B91 /* ui-libs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-libs.js"; path = "../../../dist/chrome/ui-libs.js"; sourceTree = "<group>"; };
+		6EBC01FE27131A42005F0B91 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../dist/chrome/images; sourceTree = "<group>"; };
+		6EBC01FF27131A42005F0B91 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../dist/chrome/popup.html; sourceTree = "<group>"; };
+		6EBC020027131A42005F0B91 /* notification.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = notification.html; path = ../../../dist/chrome/notification.html; sourceTree = "<group>"; };
+		6EBC020127131A42005F0B91 /* bg-libs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "bg-libs.js"; path = "../../../dist/chrome/bg-libs.js"; sourceTree = "<group>"; };
+		6EBC020227131A42005F0B91 /* disable-console.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "disable-console.js"; path = "../../../dist/chrome/disable-console.js"; sourceTree = "<group>"; };
+		6EBC020327131A42005F0B91 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = index.css; path = ../../../dist/chrome/index.css; sourceTree = "<group>"; };
+		6EBC020427131A42005F0B91 /* phishing.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = phishing.html; path = ../../../dist/chrome/phishing.html; sourceTree = "<group>"; };
+		6EBC020527131A42005F0B91 /* inpage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inpage.js; path = ../../../dist/chrome/inpage.js; sourceTree = "<group>"; };
+		6EBC020627131A42005F0B91 /* phishing-detect.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "phishing-detect.js"; path = "../../../dist/chrome/phishing-detect.js"; sourceTree = "<group>"; };
+		6EBC020727131A42005F0B91 /* chromereload.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = chromereload.js; path = ../../../dist/chrome/chromereload.js; sourceTree = "<group>"; };
+		6EBC020827131A42005F0B91 /* runLockdown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = runLockdown.js; path = ../../../dist/chrome/runLockdown.js; sourceTree = "<group>"; };
+		6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "trezor-usb-permissions.html"; path = "../../../dist/chrome/trezor-usb-permissions.html"; sourceTree = "<group>"; };
+		6EBC020A27131A42005F0B91 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../dist/chrome/manifest.json; sourceTree = "<group>"; };
+		6EBC020B27131A42005F0B91 /* lockdown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = lockdown.js; path = ../../../dist/chrome/lockdown.js; sourceTree = "<group>"; };
+		6EBC020C27131A42005F0B91 /* loading.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = loading.html; path = ../../../dist/chrome/loading.html; sourceTree = "<group>"; };
+		6EBC020D27131A42005F0B91 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../../dist/chrome/background.html; sourceTree = "<group>"; };
+		6EBC020E27131A42005F0B91 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../dist/chrome/_locales; sourceTree = "<group>"; };
+		6EBC020F27131A42005F0B91 /* globalthis.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = globalthis.js; path = ../../../dist/chrome/globalthis.js; sourceTree = "<group>"; };
+		6EBC021027131A42005F0B91 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../../dist/chrome/fonts; sourceTree = "<group>"; };
+		6EBC021127131A42005F0B91 /* contentscript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentscript.js; path = ../../../dist/chrome/contentscript.js; sourceTree = "<group>"; };
+		6EBC021227131A42005F0B91 /* index-rtl.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "index-rtl.css"; path = "../../../dist/chrome/index-rtl.css"; sourceTree = "<group>"; };
+		6EBC021327131A42005F0B91 /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vendor; path = ../../../dist/chrome/vendor; sourceTree = "<group>"; };
+		6EBC021427131A42005F0B91 /* initSentry.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = initSentry.js; path = ../../../dist/chrome/initSentry.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBC01A727131A42005F0B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01B927131A42005F0B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01C627131A42005F0B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01D027131A42005F0B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBC019627131A40005F0B91 = {
+			isa = PBXGroup;
+			children = (
+				6EBC019B27131A40005F0B91 /* Shared (App) */,
+				6EBC01A427131A41005F0B91 /* Shared (Extension) */,
+				6EBC01AC27131A42005F0B91 /* iOS (App) */,
+				6EBC01BD27131A42005F0B91 /* macOS (App) */,
+				6EBC01CD27131A42005F0B91 /* iOS (Extension) */,
+				6EBC01D727131A42005F0B91 /* macOS (Extension) */,
+				6EBC01AB27131A42005F0B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBC019B27131A40005F0B91 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01A227131A40005F0B91 /* ViewController.swift */,
+				6EBC01A327131A41005F0B91 /* Assets.xcassets */,
+				6EBC019C27131A40005F0B91 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		6EBC019C27131A40005F0B91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC019D27131A40005F0B91 /* Main.html */,
+				6EBC019F27131A40005F0B91 /* Icon.png */,
+				6EBC01A027131A40005F0B91 /* Style.css */,
+				6EBC01A127131A40005F0B91 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EBC01A427131A41005F0B91 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01F827131A42005F0B91 /* Resources */,
+				6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		6EBC01AB27131A42005F0B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01AA27131A42005F0B91 /* JankyMask.app */,
+				6EBC01BC27131A42005F0B91 /* JankyMask.app */,
+				6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */,
+				6EBC01D327131A42005F0B91 /* JankyMask Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBC01AC27131A42005F0B91 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01AD27131A42005F0B91 /* AppDelegate.swift */,
+				6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */,
+				6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */,
+				6EBC01B427131A42005F0B91 /* Main.storyboard */,
+				6EBC01B727131A42005F0B91 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		6EBC01BD27131A42005F0B91 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01BE27131A42005F0B91 /* AppDelegate.swift */,
+				6EBC01C027131A42005F0B91 /* Main.storyboard */,
+				6EBC01C327131A42005F0B91 /* Info.plist */,
+				6EBC01C427131A42005F0B91 /* MetaMask.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		6EBC01CD27131A42005F0B91 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01CE27131A42005F0B91 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		6EBC01D727131A42005F0B91 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01D827131A42005F0B91 /* Info.plist */,
+				6EBC01D927131A42005F0B91 /* MetaMask.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		6EBC01F827131A42005F0B91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC01F927131A42005F0B91 /* ui.js */,
+				6EBC01FA27131A42005F0B91 /* home.html */,
+				6EBC01FB27131A42005F0B91 /* background.js */,
+				6EBC01FC27131A42005F0B91 /* intl */,
+				6EBC01FD27131A42005F0B91 /* ui-libs.js */,
+				6EBC01FE27131A42005F0B91 /* images */,
+				6EBC01FF27131A42005F0B91 /* popup.html */,
+				6EBC020027131A42005F0B91 /* notification.html */,
+				6EBC020127131A42005F0B91 /* bg-libs.js */,
+				6EBC020227131A42005F0B91 /* disable-console.js */,
+				6EBC020327131A42005F0B91 /* index.css */,
+				6EBC020427131A42005F0B91 /* phishing.html */,
+				6EBC020527131A42005F0B91 /* inpage.js */,
+				6EBC020627131A42005F0B91 /* phishing-detect.js */,
+				6EBC020727131A42005F0B91 /* chromereload.js */,
+				6EBC020827131A42005F0B91 /* runLockdown.js */,
+				6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */,
+				6EBC020A27131A42005F0B91 /* manifest.json */,
+				6EBC020B27131A42005F0B91 /* lockdown.js */,
+				6EBC020C27131A42005F0B91 /* loading.html */,
+				6EBC020D27131A42005F0B91 /* background.html */,
+				6EBC020E27131A42005F0B91 /* _locales */,
+				6EBC020F27131A42005F0B91 /* globalthis.js */,
+				6EBC021027131A42005F0B91 /* fonts */,
+				6EBC021127131A42005F0B91 /* contentscript.js */,
+				6EBC021227131A42005F0B91 /* index-rtl.css */,
+				6EBC021327131A42005F0B91 /* vendor */,
+				6EBC021427131A42005F0B91 /* initSentry.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBC01A927131A42005F0B91 /* JankyMask (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBC01EE27131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask (iOS)" */;
+			buildPhases = (
+				6EBC01A627131A42005F0B91 /* Sources */,
+				6EBC01A727131A42005F0B91 /* Frameworks */,
+				6EBC01A827131A42005F0B91 /* Resources */,
+				6EBC01ED27131A42005F0B91 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBC01CC27131A42005F0B91 /* PBXTargetDependency */,
+			);
+			name = "JankyMask (iOS)";
+			productName = "MetaMask (iOS)";
+			productReference = 6EBC01AA27131A42005F0B91 /* JankyMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBC01BB27131A42005F0B91 /* JankyMask (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBC01F527131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask (macOS)" */;
+			buildPhases = (
+				6EBC01B827131A42005F0B91 /* Sources */,
+				6EBC01B927131A42005F0B91 /* Frameworks */,
+				6EBC01BA27131A42005F0B91 /* Resources */,
+				6EBC01F427131A42005F0B91 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBC01D627131A42005F0B91 /* PBXTargetDependency */,
+			);
+			name = "JankyMask (macOS)";
+			productName = "MetaMask (macOS)";
+			productReference = 6EBC01BC27131A42005F0B91 /* JankyMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBC01C827131A42005F0B91 /* JankyMask Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBC01EA27131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask Extension (iOS)" */;
+			buildPhases = (
+				6EBC01C527131A42005F0B91 /* Sources */,
+				6EBC01C627131A42005F0B91 /* Frameworks */,
+				6EBC01C727131A42005F0B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JankyMask Extension (iOS)";
+			productName = "MetaMask Extension (iOS)";
+			productReference = 6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6EBC01D227131A42005F0B91 /* JankyMask Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBC01F127131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask Extension (macOS)" */;
+			buildPhases = (
+				6EBC01CF27131A42005F0B91 /* Sources */,
+				6EBC01D027131A42005F0B91 /* Frameworks */,
+				6EBC01D127131A42005F0B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JankyMask Extension (macOS)";
+			productName = "MetaMask Extension (macOS)";
+			productReference = 6EBC01D327131A42005F0B91 /* JankyMask Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBC019727131A40005F0B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6EBC01A927131A42005F0B91 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6EBC01BB27131A42005F0B91 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6EBC01C827131A42005F0B91 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6EBC01D227131A42005F0B91 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 6EBC019A27131A40005F0B91 /* Build configuration list for PBXProject "JankyMask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBC019627131A40005F0B91;
+			productRefGroup = 6EBC01AB27131A42005F0B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EBC01A927131A42005F0B91 /* JankyMask (iOS) */,
+				6EBC01BB27131A42005F0B91 /* JankyMask (macOS) */,
+				6EBC01C827131A42005F0B91 /* JankyMask Extension (iOS) */,
+				6EBC01D227131A42005F0B91 /* JankyMask Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBC01A827131A42005F0B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01DC27131A42005F0B91 /* Icon.png in Resources */,
+				6EBC01B327131A42005F0B91 /* LaunchScreen.storyboard in Resources */,
+				6EBC01DA27131A42005F0B91 /* Main.html in Resources */,
+				6EBC01E027131A42005F0B91 /* Script.js in Resources */,
+				6EBC01E427131A42005F0B91 /* Assets.xcassets in Resources */,
+				6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */,
+				6EBC01DE27131A42005F0B91 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01BA27131A42005F0B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01DD27131A42005F0B91 /* Icon.png in Resources */,
+				6EBC01DF27131A42005F0B91 /* Style.css in Resources */,
+				6EBC01C227131A42005F0B91 /* Main.storyboard in Resources */,
+				6EBC01E127131A42005F0B91 /* Script.js in Resources */,
+				6EBC01E527131A42005F0B91 /* Assets.xcassets in Resources */,
+				6EBC01DB27131A42005F0B91 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01C727131A42005F0B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC023727131A42005F0B91 /* popup.html in Resources */,
+				6EBC023A27131A42005F0B91 /* disable-console.js in Resources */,
+				6EBC023B27131A42005F0B91 /* index.css in Resources */,
+				6EBC023627131A42005F0B91 /* images in Resources */,
+				6EBC024727131A42005F0B91 /* globalthis.js in Resources */,
+				6EBC024C27131A42005F0B91 /* initSentry.js in Resources */,
+				6EBC024227131A42005F0B91 /* manifest.json in Resources */,
+				6EBC023127131A42005F0B91 /* ui.js in Resources */,
+				6EBC024A27131A42005F0B91 /* index-rtl.css in Resources */,
+				6EBC023E27131A42005F0B91 /* phishing-detect.js in Resources */,
+				6EBC024527131A42005F0B91 /* background.html in Resources */,
+				6EBC023F27131A42005F0B91 /* chromereload.js in Resources */,
+				6EBC023927131A42005F0B91 /* bg-libs.js in Resources */,
+				6EBC023827131A42005F0B91 /* notification.html in Resources */,
+				6EBC024927131A42005F0B91 /* contentscript.js in Resources */,
+				6EBC023327131A42005F0B91 /* background.js in Resources */,
+				6EBC023527131A42005F0B91 /* ui-libs.js in Resources */,
+				6EBC023227131A42005F0B91 /* home.html in Resources */,
+				6EBC024827131A42005F0B91 /* fonts in Resources */,
+				6EBC024B27131A42005F0B91 /* vendor in Resources */,
+				6EBC024427131A42005F0B91 /* loading.html in Resources */,
+				6EBC024127131A42005F0B91 /* trezor-usb-permissions.html in Resources */,
+				6EBC023D27131A42005F0B91 /* inpage.js in Resources */,
+				6EBC023C27131A42005F0B91 /* phishing.html in Resources */,
+				6EBC024327131A42005F0B91 /* lockdown.js in Resources */,
+				6EBC023427131A42005F0B91 /* intl in Resources */,
+				6EBC024627131A42005F0B91 /* _locales in Resources */,
+				6EBC024027131A42005F0B91 /* runLockdown.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01D127131A42005F0B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC021B27131A42005F0B91 /* popup.html in Resources */,
+				6EBC021E27131A42005F0B91 /* disable-console.js in Resources */,
+				6EBC021F27131A42005F0B91 /* index.css in Resources */,
+				6EBC021A27131A42005F0B91 /* images in Resources */,
+				6EBC022B27131A42005F0B91 /* globalthis.js in Resources */,
+				6EBC023027131A42005F0B91 /* initSentry.js in Resources */,
+				6EBC022627131A42005F0B91 /* manifest.json in Resources */,
+				6EBC021527131A42005F0B91 /* ui.js in Resources */,
+				6EBC022E27131A42005F0B91 /* index-rtl.css in Resources */,
+				6EBC022227131A42005F0B91 /* phishing-detect.js in Resources */,
+				6EBC022927131A42005F0B91 /* background.html in Resources */,
+				6EBC022327131A42005F0B91 /* chromereload.js in Resources */,
+				6EBC021D27131A42005F0B91 /* bg-libs.js in Resources */,
+				6EBC021C27131A42005F0B91 /* notification.html in Resources */,
+				6EBC022D27131A42005F0B91 /* contentscript.js in Resources */,
+				6EBC021727131A42005F0B91 /* background.js in Resources */,
+				6EBC021927131A42005F0B91 /* ui-libs.js in Resources */,
+				6EBC021627131A42005F0B91 /* home.html in Resources */,
+				6EBC022C27131A42005F0B91 /* fonts in Resources */,
+				6EBC022F27131A42005F0B91 /* vendor in Resources */,
+				6EBC022827131A42005F0B91 /* loading.html in Resources */,
+				6EBC022527131A42005F0B91 /* trezor-usb-permissions.html in Resources */,
+				6EBC022127131A42005F0B91 /* inpage.js in Resources */,
+				6EBC022027131A42005F0B91 /* phishing.html in Resources */,
+				6EBC022727131A42005F0B91 /* lockdown.js in Resources */,
+				6EBC021827131A42005F0B91 /* intl in Resources */,
+				6EBC022A27131A42005F0B91 /* _locales in Resources */,
+				6EBC022427131A42005F0B91 /* runLockdown.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBC01A627131A42005F0B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01E227131A42005F0B91 /* ViewController.swift in Sources */,
+				6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */,
+				6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01B827131A42005F0B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01E327131A42005F0B91 /* ViewController.swift in Sources */,
+				6EBC01BF27131A42005F0B91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01C527131A42005F0B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01E627131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBC01CF27131A42005F0B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC01E727131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBC01CC27131A42005F0B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBC01C827131A42005F0B91 /* JankyMask Extension (iOS) */;
+			targetProxy = 6EBC01CB27131A42005F0B91 /* PBXContainerItemProxy */;
+		};
+		6EBC01D627131A42005F0B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBC01D227131A42005F0B91 /* JankyMask Extension (macOS) */;
+			targetProxy = 6EBC01D527131A42005F0B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EBC019D27131A40005F0B91 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC019E27131A40005F0B91 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC01B227131A42005F0B91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBC01B427131A42005F0B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC01B527131A42005F0B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBC01C027131A42005F0B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC01C127131A42005F0B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBC01E827131A42005F0B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EBC01E927131A42005F0B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EBC01EB27131A42005F0B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JankyMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask.Extension;
+				PRODUCT_NAME = "JankyMask Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBC01EC27131A42005F0B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JankyMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask.Extension;
+				PRODUCT_NAME = "JankyMask Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBC01EF27131A42005F0B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask;
+				PRODUCT_NAME = JankyMask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBC01F027131A42005F0B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask;
+				PRODUCT_NAME = JankyMask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBC01F227131A42005F0B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JankyMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask.Extension;
+				PRODUCT_NAME = "JankyMask Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EBC01F327131A42005F0B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JankyMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask.Extension;
+				PRODUCT_NAME = "JankyMask Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6EBC01F627131A42005F0B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask;
+				PRODUCT_NAME = JankyMask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EBC01F727131A42005F0B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJXTX62XS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.JankyMask;
+				PRODUCT_NAME = JankyMask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBC019A27131A40005F0B91 /* Build configuration list for PBXProject "JankyMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC01E827131A42005F0B91 /* Debug */,
+				6EBC01E927131A42005F0B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBC01EA27131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC01EB27131A42005F0B91 /* Debug */,
+				6EBC01EC27131A42005F0B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBC01EE27131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC01EF27131A42005F0B91 /* Debug */,
+				6EBC01F027131A42005F0B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBC01F127131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC01F227131A42005F0B91 /* Debug */,
+				6EBC01F327131A42005F0B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBC01F527131A42005F0B91 /* Build configuration list for PBXNativeTarget "JankyMask (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC01F627131A42005F0B91 /* Debug */,
+				6EBC01F727131A42005F0B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBC019727131A40005F0B91 /* Project object */;
+}
