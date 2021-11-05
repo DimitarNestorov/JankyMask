@@ -180,6 +180,14 @@ function bnToHex(inputBn) {
   return addHexPrefix(inputBn.toString(16));
 }
 
+function loadBackground() {
+  return new Promise((resolve) => {
+    extension.runtime.getBackgroundPage((window) => {
+      resolve(window.isLoadedPromise)  
+    })
+  })
+}
+
 export {
   getPlatform,
   getEnvironmentType,
@@ -189,4 +197,5 @@ export {
   checkForError,
   addHexPrefix,
   bnToHex,
+  loadBackground,
 };

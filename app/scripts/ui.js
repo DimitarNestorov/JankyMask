@@ -16,12 +16,14 @@ import {
 } from '../../shared/constants/app';
 import ExtensionPlatform from './platforms/extension';
 import { setupMultiplex } from './lib/stream-utils';
-import { getEnvironmentType } from './lib/util';
+import { getEnvironmentType, loadBackground } from './lib/util';
 import metaRPCClientFactory from './lib/metaRPCClientFactory';
 
 start().catch(log.error);
 
 async function start() {
+  await loadBackground();
+
   // create platform global
   global.platform = new ExtensionPlatform();
 

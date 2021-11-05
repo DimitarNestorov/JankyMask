@@ -3,12 +3,14 @@ import PortStream from 'extension-port-stream';
 import extension from 'extensionizer';
 import createRandomId from '../../shared/modules/random-id';
 import { setupMultiplex } from './lib/stream-utils';
-import { getEnvironmentType } from './lib/util';
+import { getEnvironmentType, loadBackground } from './lib/util';
 import ExtensionPlatform from './platforms/extension';
 
 document.addEventListener('DOMContentLoaded', start);
 
-function start() {
+async function start() {
+  await loadBackground()
+
   const hash = window.location.hash.substring(1);
   const suspect = querystring.parse(hash);
 

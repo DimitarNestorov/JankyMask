@@ -5,6 +5,7 @@ import ObjectMultiplex from 'obj-multiplex';
 import extension from 'extensionizer';
 import PortStream from 'extension-port-stream';
 import { obj as createThoughStream } from 'through2';
+import { loadBackground } from './lib/util';
 
 // These require calls need to use require to be statically recognized by browserify
 const fs = require('fs');
@@ -29,7 +30,9 @@ const LEGACY_PUBLIC_CONFIG = 'publicConfig';
 
 if (shouldInjectProvider()) {
   injectScript(inpageBundle);
-  setupStreams();
+  browser.runtime.sendMessage({ message: "loadBackground" }).then(() => {
+    setupStreams()
+  });
 }
 
 /**

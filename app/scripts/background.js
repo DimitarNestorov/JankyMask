@@ -60,8 +60,15 @@ if (inTest || process.env.METAMASK_DEBUG) {
   global.metamaskGetState = localStore.get.bind(localStore);
 }
 
+let resolveIsLoadedPromise;
+window.isLoadedPromise = new Promise((resolve) => {
+  resolveIsLoadedPromise = resolve;
+})
+
 // initialization flow
-initialize().catch(log.error);
+initialize().then(() => {
+  resolveIsLoadedPromise();
+}).catch(log.error);
 
 /**
  * @typedef {import('../../shared/constants/transaction').TransactionMeta} TransactionMeta
@@ -505,3 +512,11 @@ extension.runtime.onInstalled.addListener(({ reason }) => {
     platform.openExtensionInBrowser();
   }
 });
+
+extension.runtime.onMessage.addListener(notify);
+
+function notify(message) {
+  if (message.message === 'loadBackground') {
+    return window.isLoadedPromise.then(() => ({message: 'loaded'}));
+  }
+}
