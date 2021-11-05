@@ -26,17 +26,22 @@ import {
   getUnconnectedAccountAlertShown,
 } from './app/ducks/metamask/metamask';
 
-log.setLevel(global.METAMASK_DEBUG ? 'debug' : 'warn');
+log.setLevel('debug');
 
 export default function launchMetamaskUi(opts, cb) {
   const { backgroundConnection } = opts;
+  log.debug('launchMetamaskUi')
   actions._setBackgroundConnection(backgroundConnection);
   // check if we are unlocked first
   backgroundConnection.getState(function (err, metamaskState) {
     if (err) {
+      log.error(err)
       cb(err);
       return;
     }
+
+    log.debug('backgroundConnection.getState ' + JSON.stringify(metamaskState))
+
     startApp(metamaskState, backgroundConnection, opts).then((store) => {
       setupDebuggingHelpers(store);
       cb(null, store);
@@ -45,6 +50,7 @@ export default function launchMetamaskUi(opts, cb) {
 }
 
 async function startApp(metamaskState, backgroundConnection, opts) {
+  log.debug('startApp')
   // parse opts
   if (!metamaskState.featureFlags) {
     metamaskState.featureFlags = {};
@@ -153,8 +159,11 @@ async function startApp(metamaskState, backgroundConnection, opts) {
     },
   };
 
+  log.debug('going to call render')
   // start app
   render(<Root store={store} />, opts.container);
+
+  log.debug('returning store')
 
   return store;
 }

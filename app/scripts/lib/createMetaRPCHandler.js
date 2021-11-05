@@ -2,6 +2,7 @@ import { ethErrors, serializeError } from 'eth-rpc-errors';
 
 const createMetaRPCHandler = (api, outStream) => {
   return (data) => {
+    console.log('data ' + JSON.stringify(data))
     if (outStream._writableState.ended) {
       return;
     }

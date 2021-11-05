@@ -19,21 +19,46 @@ import { setupMultiplex } from './lib/stream-utils';
 import { getEnvironmentType } from './lib/util';
 import metaRPCClientFactory from './lib/metaRPCClientFactory';
 
+import bodyLogger from './body-logger'
+
+const customPlain = log => `[${new Date().toGMTString()}] [${log.level.label}] ${log.message}`;
+bodyLogger.apply(log, { format: customPlain })
+
+log.setDefaultLevel('debug');
+log.enableAll();
+
+setInterval(() => {
+  log.warn('tester');
+}, 10000)
+
+console.log = log.debug;
+console.warn = log.warn;
+console.error = log.error;
+console.info = log.info;
+
+window.logg = log;
+
 start().catch(log.error);
 
 async function start() {
+  log.debug('1')
   // create platform global
   global.platform = new ExtensionPlatform();
+  log.debug('2')
 
   // identify window type (popup, notification)
   const windowType = getEnvironmentType();
+  log.debug('3 ' + windowType)
 
   // setup stream to background
   const extensionPort = extension.runtime.connect({ name: windowType });
   const connectionStream = new PortStream(extensionPort);
+  log.debug('4')
 
   const activeTab = await queryCurrentActiveTab(windowType);
+  log.debug('5 ' + JSON.stringify(activeTab))
   initializeUiWithTab(activeTab);
+  log.debug('7')
 
   function displayCriticalError(container, err) {
     container.innerHTML =
@@ -47,10 +72,12 @@ async function start() {
     const container = document.getElementById('app-content');
     initializeUi(tab, container, connectionStream, (err, store) => {
       if (err) {
+        log.error(err)
         displayCriticalError(container, err);
         return;
       }
 
+      log.debug('6')
       const state = store.getState();
       const { metamask: { completedOnboarding } = {} } = state;
 
@@ -86,21 +113,25 @@ async function queryCurrentActiveTab(windowType) {
 }
 
 function initializeUi(activeTab, container, connectionStream, cb) {
-  connectToAccountManager(connectionStream, (err, backgroundConnection) => {
-    if (err) {
-      cb(err);
-      return;
-    }
-
-    launchMetaMaskUi(
-      {
-        activeTab,
-        container,
-        backgroundConnection,
-      },
-      cb,
-    );
-  });
+  extension.runtime.getBackgroundPage(() => {
+    connectToAccountManager(connectionStream, (err, backgroundConnection) => {
+      if (err) {
+        log.error(err)
+        cb(err);
+        return;
+      }
+  
+      launchMetaMaskUi(
+        {
+          activeTab,
+          container,
+          backgroundConnection,
+        },
+        cb,
+      );
+    });
+  })
+  
 }
 
 /**

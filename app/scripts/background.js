@@ -35,10 +35,29 @@ import getObjStructure from './lib/getObjStructure';
 import setupEnsIpfsResolver from './lib/ens-ipfs/setup';
 /* eslint-enable import/first */
 
+import bodyLogger from './body-logger'
+
 const { sentry } = global;
 const firstTimeState = { ...rawFirstTimeState };
 
-log.setDefaultLevel(process.env.METAMASK_DEBUG ? 'debug' : 'warn');
+const customPlain = log => `[${new Date().toGMTString()}] [${log.level.label}] ${log.message}`;
+bodyLogger.apply(log, { format: customPlain })
+
+log.setDefaultLevel('debug');
+log.enableAll();
+
+log.warn('testerr');
+
+setInterval(() => {
+  log.warn('tester');
+}, 10000)
+
+console.log = log.debug;
+console.warn = log.warn;
+console.error = log.error;
+console.info = log.info;
+
+window.logg = log;
 
 const platform = new ExtensionPlatform();
 
@@ -56,9 +75,7 @@ const inTest = process.env.IN_TEST === 'true';
 const localStore = inTest ? new ReadOnlyNetworkStore() : new LocalStore();
 let versionedData;
 
-if (inTest || process.env.METAMASK_DEBUG) {
-  global.metamaskGetState = localStore.get.bind(localStore);
-}
+global.metamaskGetState = localStore.get.bind(localStore);
 
 // initialization flow
 initialize().catch(log.error);
@@ -316,6 +333,7 @@ function setupController(initState, initLangCode) {
    */
   function connectRemote(remotePort) {
     const processName = remotePort.name;
+    log.debug('connection from ' + processName)
     const isMetaMaskInternalProcess = metamaskInternalProcessHash[processName];
 
     if (metamaskBlockedPorts.includes(remotePort.name)) {

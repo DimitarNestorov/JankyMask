@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 
     gap: var(--spacing);
-    margin: 0 calc(var(--spacing) * 2);
+    margin: 0 calc(var(--spacing) * 1.5);
     height: 100%;
 
     font: -apple-system-short-body;

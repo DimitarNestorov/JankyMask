@@ -37,7 +37,7 @@ import { initializeProvider } from '@metamask/inpage-provider';
 
 restoreContextAfterImports();
 
-log.setDefaultLevel(process.env.METAMASK_DEBUG ? 'debug' : 'warn');
+log.setDefaultLevel('debug');
 
 //
 // setup plugin communication
