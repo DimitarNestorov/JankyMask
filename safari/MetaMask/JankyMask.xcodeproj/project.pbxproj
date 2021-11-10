@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AD27131A42005F0B91 /* AppDelegate.swift */; };
-		6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */; };
 		6EBC01B327131A42005F0B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */; };
-		6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B427131A42005F0B91 /* Main.storyboard */; };
 		6EBC01BF27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01BE27131A42005F0B91 /* AppDelegate.swift */; };
 		6EBC01C227131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01C027131A42005F0B91 /* Main.storyboard */; };
 		6EBC01CA27131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -23,68 +20,80 @@
 		6EBC01DF27131A42005F0B91 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A027131A40005F0B91 /* Style.css */; };
 		6EBC01E027131A42005F0B91 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A127131A40005F0B91 /* Script.js */; };
 		6EBC01E127131A42005F0B91 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A127131A40005F0B91 /* Script.js */; };
-		6EBC01E227131A42005F0B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A227131A40005F0B91 /* ViewController.swift */; };
-		6EBC01E327131A42005F0B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A227131A40005F0B91 /* ViewController.swift */; };
 		6EBC01E427131A42005F0B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A327131A41005F0B91 /* Assets.xcassets */; };
 		6EBC01E527131A42005F0B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01A327131A41005F0B91 /* Assets.xcassets */; };
 		6EBC01E627131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */; };
 		6EBC01E727131A42005F0B91 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */; };
-		6EBC021527131A42005F0B91 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
-		6EBC021627131A42005F0B91 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
-		6EBC021727131A42005F0B91 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
-		6EBC021827131A42005F0B91 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
-		6EBC021927131A42005F0B91 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
-		6EBC021A27131A42005F0B91 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
-		6EBC021B27131A42005F0B91 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
-		6EBC021C27131A42005F0B91 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
-		6EBC021D27131A42005F0B91 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
-		6EBC021E27131A42005F0B91 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
-		6EBC021F27131A42005F0B91 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
-		6EBC022027131A42005F0B91 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
-		6EBC022127131A42005F0B91 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
-		6EBC022227131A42005F0B91 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
-		6EBC022327131A42005F0B91 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
-		6EBC022427131A42005F0B91 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
-		6EBC022527131A42005F0B91 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
-		6EBC022627131A42005F0B91 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
-		6EBC022727131A42005F0B91 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
-		6EBC022827131A42005F0B91 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
-		6EBC022927131A42005F0B91 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
-		6EBC022A27131A42005F0B91 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
-		6EBC022B27131A42005F0B91 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
-		6EBC022C27131A42005F0B91 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
-		6EBC022D27131A42005F0B91 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
-		6EBC022E27131A42005F0B91 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
-		6EBC022F27131A42005F0B91 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
-		6EBC023027131A42005F0B91 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
-		6EBC023127131A42005F0B91 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
-		6EBC023227131A42005F0B91 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
-		6EBC023327131A42005F0B91 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
-		6EBC023427131A42005F0B91 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
-		6EBC023527131A42005F0B91 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
-		6EBC023627131A42005F0B91 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
-		6EBC023727131A42005F0B91 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
-		6EBC023827131A42005F0B91 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
-		6EBC023927131A42005F0B91 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
-		6EBC023A27131A42005F0B91 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
-		6EBC023B27131A42005F0B91 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
-		6EBC023C27131A42005F0B91 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
-		6EBC023D27131A42005F0B91 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
-		6EBC023E27131A42005F0B91 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
-		6EBC023F27131A42005F0B91 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
-		6EBC024027131A42005F0B91 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
-		6EBC024127131A42005F0B91 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
-		6EBC024227131A42005F0B91 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
-		6EBC024327131A42005F0B91 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
-		6EBC024427131A42005F0B91 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
-		6EBC024527131A42005F0B91 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
-		6EBC024627131A42005F0B91 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
-		6EBC024727131A42005F0B91 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
-		6EBC024827131A42005F0B91 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
-		6EBC024927131A42005F0B91 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
-		6EBC024A27131A42005F0B91 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
-		6EBC024B27131A42005F0B91 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
-		6EBC024C27131A42005F0B91 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
+		F84C73F2273C564A00BBD649 /* JankyMaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F1273C564A00BBD649 /* JankyMaskApp.swift */; };
+		F84C73F3273C564A00BBD649 /* JankyMaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F1273C564A00BBD649 /* JankyMaskApp.swift */; };
+		F84C73F6273C56CF00BBD649 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F4273C56CF00BBD649 /* ShortcutItem.swift */; };
+		F84C73F7273C56CF00BBD649 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F4273C56CF00BBD649 /* ShortcutItem.swift */; };
+		F84C73F8273C56CF00BBD649 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F5273C56CF00BBD649 /* ShortcutView.swift */; };
+		F84C73F9273C56CF00BBD649 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73F5273C56CF00BBD649 /* ShortcutView.swift */; };
+		F84C73FB273C5E4700BBD649 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FA273C5E4700BBD649 /* OnboardingView.swift */; };
+		F84C73FC273C5E4700BBD649 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FA273C5E4700BBD649 /* OnboardingView.swift */; };
+		F84C7401273C602500BBD649 /* Intro2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FE273C602500BBD649 /* Intro2View.swift */; };
+		F84C7402273C602500BBD649 /* Intro2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FE273C602500BBD649 /* Intro2View.swift */; };
+		F84C7403273C602500BBD649 /* Intro3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FF273C602500BBD649 /* Intro3View.swift */; };
+		F84C7404273C602500BBD649 /* Intro3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C73FF273C602500BBD649 /* Intro3View.swift */; };
+		F84C7405273C602500BBD649 /* Intro1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C7400273C602500BBD649 /* Intro1View.swift */; };
+		F84C7406273C602500BBD649 /* Intro1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C7400273C602500BBD649 /* Intro1View.swift */; };
+		F84C743F273C656000BBD649 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
+		F84C7440273C656000BBD649 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
+		F84C7441273C656000BBD649 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
+		F84C7442273C656000BBD649 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
+		F84C7443273C656000BBD649 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
+		F84C7444273C656000BBD649 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
+		F84C7445273C656000BBD649 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
+		F84C7446273C656000BBD649 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
+		F84C7447273C656000BBD649 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
+		F84C7448273C656000BBD649 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
+		F84C7449273C656000BBD649 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
+		F84C744A273C656000BBD649 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
+		F84C744B273C656000BBD649 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
+		F84C744C273C656000BBD649 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
+		F84C744D273C656000BBD649 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
+		F84C744E273C656000BBD649 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
+		F84C744F273C656000BBD649 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
+		F84C7450273C656000BBD649 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
+		F84C7451273C656000BBD649 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
+		F84C7452273C656000BBD649 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
+		F84C7453273C656000BBD649 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
+		F84C7454273C656000BBD649 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
+		F84C7455273C656000BBD649 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
+		F84C7456273C656000BBD649 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
+		F84C7457273C656000BBD649 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
+		F84C7458273C656000BBD649 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
+		F84C7459273C656000BBD649 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
+		F84C745A273C656000BBD649 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
+		F84C745B273C656000BBD649 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020F27131A42005F0B91 /* globalthis.js */; };
+		F84C745C273C656000BBD649 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021327131A42005F0B91 /* vendor */; };
+		F84C745D273C656000BBD649 /* runLockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020827131A42005F0B91 /* runLockdown.js */; };
+		F84C745E273C656000BBD649 /* lockdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020B27131A42005F0B91 /* lockdown.js */; };
+		F84C745F273C656000BBD649 /* bg-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020127131A42005F0B91 /* bg-libs.js */; };
+		F84C7460273C656000BBD649 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020D27131A42005F0B91 /* background.html */; };
+		F84C7461273C656000BBD649 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021127131A42005F0B91 /* contentscript.js */; };
+		F84C7462273C656000BBD649 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021227131A42005F0B91 /* index-rtl.css */; };
+		F84C7463273C656000BBD649 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020527131A42005F0B91 /* inpage.js */; };
+		F84C7464273C656000BBD649 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FB27131A42005F0B91 /* background.js */; };
+		F84C7465273C656000BBD649 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020927131A42005F0B91 /* trezor-usb-permissions.html */; };
+		F84C7466273C656000BBD649 /* ui-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FD27131A42005F0B91 /* ui-libs.js */; };
+		F84C7467273C656000BBD649 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FA27131A42005F0B91 /* home.html */; };
+		F84C7468273C656000BBD649 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020E27131A42005F0B91 /* _locales */; };
+		F84C7469273C656000BBD649 /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01F927131A42005F0B91 /* ui.js */; };
+		F84C746A273C656000BBD649 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FC27131A42005F0B91 /* intl */; };
+		F84C746B273C656000BBD649 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FF27131A42005F0B91 /* popup.html */; };
+		F84C746C273C656000BBD649 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020727131A42005F0B91 /* chromereload.js */; };
+		F84C746D273C656000BBD649 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021027131A42005F0B91 /* fonts */; };
+		F84C746E273C656000BBD649 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020627131A42005F0B91 /* phishing-detect.js */; };
+		F84C746F273C656000BBD649 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020027131A42005F0B91 /* notification.html */; };
+		F84C7470273C656000BBD649 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020327131A42005F0B91 /* index.css */; };
+		F84C7471273C656000BBD649 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020427131A42005F0B91 /* phishing.html */; };
+		F84C7472273C656000BBD649 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020A27131A42005F0B91 /* manifest.json */; };
+		F84C7473273C656000BBD649 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01FE27131A42005F0B91 /* images */; };
+		F84C7474273C656000BBD649 /* initSentry.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC021427131A42005F0B91 /* initSentry.js */; };
+		F84C7475273C656000BBD649 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020227131A42005F0B91 /* disable-console.js */; };
+		F84C7476273C656000BBD649 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC020C27131A42005F0B91 /* loading.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,10 +147,7 @@
 		6EBC01A327131A41005F0B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EBC01A527131A41005F0B91 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		6EBC01AA27131A42005F0B91 /* JankyMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankyMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EBC01AD27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6EBC01B227131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6EBC01B527131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EBC01B727131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EBC01BC27131A42005F0B91 /* JankyMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankyMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBC01BE27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +187,13 @@
 		6EBC021227131A42005F0B91 /* index-rtl.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "index-rtl.css"; path = "../../../dist/chrome/index-rtl.css"; sourceTree = "<group>"; };
 		6EBC021327131A42005F0B91 /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vendor; path = ../../../dist/chrome/vendor; sourceTree = "<group>"; };
 		6EBC021427131A42005F0B91 /* initSentry.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = initSentry.js; path = ../../../dist/chrome/initSentry.js; sourceTree = "<group>"; };
+		F84C73F1273C564A00BBD649 /* JankyMaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankyMaskApp.swift; sourceTree = "<group>"; };
+		F84C73F4273C56CF00BBD649 /* ShortcutItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutItem.swift; sourceTree = "<group>"; };
+		F84C73F5273C56CF00BBD649 /* ShortcutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
+		F84C73FA273C5E4700BBD649 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F84C73FE273C602500BBD649 /* Intro2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro2View.swift; sourceTree = "<group>"; };
+		F84C73FF273C602500BBD649 /* Intro3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro3View.swift; sourceTree = "<group>"; };
+		F84C7400273C602500BBD649 /* Intro1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +247,10 @@
 				6EBC01A227131A40005F0B91 /* ViewController.swift */,
 				6EBC01A327131A41005F0B91 /* Assets.xcassets */,
 				6EBC019C27131A40005F0B91 /* Resources */,
+				F84C73F1273C564A00BBD649 /* JankyMaskApp.swift */,
+				F84C73F5273C56CF00BBD649 /* ShortcutView.swift */,
+				F84C73F4273C56CF00BBD649 /* ShortcutItem.swift */,
+				F84C73FD273C601600BBD649 /* Onboarding */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -272,10 +289,7 @@
 		6EBC01AC27131A42005F0B91 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				6EBC01AD27131A42005F0B91 /* AppDelegate.swift */,
-				6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */,
 				6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */,
-				6EBC01B427131A42005F0B91 /* Main.storyboard */,
 				6EBC01B727131A42005F0B91 /* Info.plist */,
 			);
 			path = "iOS (App)";
@@ -344,6 +358,17 @@
 			name = Resources;
 			path = "Shared (Extension)";
 			sourceTree = SOURCE_ROOT;
+		};
+		F84C73FD273C601600BBD649 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F84C73FA273C5E4700BBD649 /* OnboardingView.swift */,
+				F84C7400273C602500BBD649 /* Intro1View.swift */,
+				F84C73FE273C602500BBD649 /* Intro2View.swift */,
+				F84C73FF273C602500BBD649 /* Intro3View.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -475,7 +500,6 @@
 				6EBC01DA27131A42005F0B91 /* Main.html in Resources */,
 				6EBC01E027131A42005F0B91 /* Script.js in Resources */,
 				6EBC01E427131A42005F0B91 /* Assets.xcassets in Resources */,
-				6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */,
 				6EBC01DE27131A42005F0B91 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,34 +521,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBC023727131A42005F0B91 /* popup.html in Resources */,
-				6EBC023A27131A42005F0B91 /* disable-console.js in Resources */,
-				6EBC023B27131A42005F0B91 /* index.css in Resources */,
-				6EBC023627131A42005F0B91 /* images in Resources */,
-				6EBC024727131A42005F0B91 /* globalthis.js in Resources */,
-				6EBC024C27131A42005F0B91 /* initSentry.js in Resources */,
-				6EBC024227131A42005F0B91 /* manifest.json in Resources */,
-				6EBC023127131A42005F0B91 /* ui.js in Resources */,
-				6EBC024A27131A42005F0B91 /* index-rtl.css in Resources */,
-				6EBC023E27131A42005F0B91 /* phishing-detect.js in Resources */,
-				6EBC024527131A42005F0B91 /* background.html in Resources */,
-				6EBC023F27131A42005F0B91 /* chromereload.js in Resources */,
-				6EBC023927131A42005F0B91 /* bg-libs.js in Resources */,
-				6EBC023827131A42005F0B91 /* notification.html in Resources */,
-				6EBC024927131A42005F0B91 /* contentscript.js in Resources */,
-				6EBC023327131A42005F0B91 /* background.js in Resources */,
-				6EBC023527131A42005F0B91 /* ui-libs.js in Resources */,
-				6EBC023227131A42005F0B91 /* home.html in Resources */,
-				6EBC024827131A42005F0B91 /* fonts in Resources */,
-				6EBC024B27131A42005F0B91 /* vendor in Resources */,
-				6EBC024427131A42005F0B91 /* loading.html in Resources */,
-				6EBC024127131A42005F0B91 /* trezor-usb-permissions.html in Resources */,
-				6EBC023D27131A42005F0B91 /* inpage.js in Resources */,
-				6EBC023C27131A42005F0B91 /* phishing.html in Resources */,
-				6EBC024327131A42005F0B91 /* lockdown.js in Resources */,
-				6EBC023427131A42005F0B91 /* intl in Resources */,
-				6EBC024627131A42005F0B91 /* _locales in Resources */,
-				6EBC024027131A42005F0B91 /* runLockdown.js in Resources */,
+				F84C7443273C656000BBD649 /* bg-libs.js in Resources */,
+				F84C7445273C656000BBD649 /* contentscript.js in Resources */,
+				F84C7454273C656000BBD649 /* index.css in Resources */,
+				F84C744A273C656000BBD649 /* ui-libs.js in Resources */,
+				F84C7456273C656000BBD649 /* manifest.json in Resources */,
+				F84C7451273C656000BBD649 /* fonts in Resources */,
+				F84C7440273C656000BBD649 /* vendor in Resources */,
+				F84C7446273C656000BBD649 /* index-rtl.css in Resources */,
+				F84C7449273C656000BBD649 /* trezor-usb-permissions.html in Resources */,
+				F84C7448273C656000BBD649 /* background.js in Resources */,
+				F84C7457273C656000BBD649 /* images in Resources */,
+				F84C7441273C656000BBD649 /* runLockdown.js in Resources */,
+				F84C743F273C656000BBD649 /* globalthis.js in Resources */,
+				F84C745A273C656000BBD649 /* loading.html in Resources */,
+				F84C7455273C656000BBD649 /* phishing.html in Resources */,
+				F84C744D273C656000BBD649 /* ui.js in Resources */,
+				F84C7444273C656000BBD649 /* background.html in Resources */,
+				F84C744E273C656000BBD649 /* intl in Resources */,
+				F84C7453273C656000BBD649 /* notification.html in Resources */,
+				F84C7452273C656000BBD649 /* phishing-detect.js in Resources */,
+				F84C744B273C656000BBD649 /* home.html in Resources */,
+				F84C744F273C656000BBD649 /* popup.html in Resources */,
+				F84C7458273C656000BBD649 /* initSentry.js in Resources */,
+				F84C7459273C656000BBD649 /* disable-console.js in Resources */,
+				F84C7442273C656000BBD649 /* lockdown.js in Resources */,
+				F84C7450273C656000BBD649 /* chromereload.js in Resources */,
+				F84C744C273C656000BBD649 /* _locales in Resources */,
+				F84C7447273C656000BBD649 /* inpage.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,34 +556,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBC021B27131A42005F0B91 /* popup.html in Resources */,
-				6EBC021E27131A42005F0B91 /* disable-console.js in Resources */,
-				6EBC021F27131A42005F0B91 /* index.css in Resources */,
-				6EBC021A27131A42005F0B91 /* images in Resources */,
-				6EBC022B27131A42005F0B91 /* globalthis.js in Resources */,
-				6EBC023027131A42005F0B91 /* initSentry.js in Resources */,
-				6EBC022627131A42005F0B91 /* manifest.json in Resources */,
-				6EBC021527131A42005F0B91 /* ui.js in Resources */,
-				6EBC022E27131A42005F0B91 /* index-rtl.css in Resources */,
-				6EBC022227131A42005F0B91 /* phishing-detect.js in Resources */,
-				6EBC022927131A42005F0B91 /* background.html in Resources */,
-				6EBC022327131A42005F0B91 /* chromereload.js in Resources */,
-				6EBC021D27131A42005F0B91 /* bg-libs.js in Resources */,
-				6EBC021C27131A42005F0B91 /* notification.html in Resources */,
-				6EBC022D27131A42005F0B91 /* contentscript.js in Resources */,
-				6EBC021727131A42005F0B91 /* background.js in Resources */,
-				6EBC021927131A42005F0B91 /* ui-libs.js in Resources */,
-				6EBC021627131A42005F0B91 /* home.html in Resources */,
-				6EBC022C27131A42005F0B91 /* fonts in Resources */,
-				6EBC022F27131A42005F0B91 /* vendor in Resources */,
-				6EBC022827131A42005F0B91 /* loading.html in Resources */,
-				6EBC022527131A42005F0B91 /* trezor-usb-permissions.html in Resources */,
-				6EBC022127131A42005F0B91 /* inpage.js in Resources */,
-				6EBC022027131A42005F0B91 /* phishing.html in Resources */,
-				6EBC022727131A42005F0B91 /* lockdown.js in Resources */,
-				6EBC021827131A42005F0B91 /* intl in Resources */,
-				6EBC022A27131A42005F0B91 /* _locales in Resources */,
-				6EBC022427131A42005F0B91 /* runLockdown.js in Resources */,
+				F84C745F273C656000BBD649 /* bg-libs.js in Resources */,
+				F84C7461273C656000BBD649 /* contentscript.js in Resources */,
+				F84C7470273C656000BBD649 /* index.css in Resources */,
+				F84C7466273C656000BBD649 /* ui-libs.js in Resources */,
+				F84C7472273C656000BBD649 /* manifest.json in Resources */,
+				F84C746D273C656000BBD649 /* fonts in Resources */,
+				F84C745C273C656000BBD649 /* vendor in Resources */,
+				F84C7462273C656000BBD649 /* index-rtl.css in Resources */,
+				F84C7465273C656000BBD649 /* trezor-usb-permissions.html in Resources */,
+				F84C7464273C656000BBD649 /* background.js in Resources */,
+				F84C7473273C656000BBD649 /* images in Resources */,
+				F84C745D273C656000BBD649 /* runLockdown.js in Resources */,
+				F84C745B273C656000BBD649 /* globalthis.js in Resources */,
+				F84C7476273C656000BBD649 /* loading.html in Resources */,
+				F84C7471273C656000BBD649 /* phishing.html in Resources */,
+				F84C7469273C656000BBD649 /* ui.js in Resources */,
+				F84C7460273C656000BBD649 /* background.html in Resources */,
+				F84C746A273C656000BBD649 /* intl in Resources */,
+				F84C746F273C656000BBD649 /* notification.html in Resources */,
+				F84C746E273C656000BBD649 /* phishing-detect.js in Resources */,
+				F84C7467273C656000BBD649 /* home.html in Resources */,
+				F84C746B273C656000BBD649 /* popup.html in Resources */,
+				F84C7474273C656000BBD649 /* initSentry.js in Resources */,
+				F84C7475273C656000BBD649 /* disable-console.js in Resources */,
+				F84C745E273C656000BBD649 /* lockdown.js in Resources */,
+				F84C746C273C656000BBD649 /* chromereload.js in Resources */,
+				F84C7468273C656000BBD649 /* _locales in Resources */,
+				F84C7463273C656000BBD649 /* inpage.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,9 +594,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBC01E227131A42005F0B91 /* ViewController.swift in Sources */,
-				6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */,
-				6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */,
+				F84C7405273C602500BBD649 /* Intro1View.swift in Sources */,
+				F84C73F8273C56CF00BBD649 /* ShortcutView.swift in Sources */,
+				F84C7401273C602500BBD649 /* Intro2View.swift in Sources */,
+				F84C73FB273C5E4700BBD649 /* OnboardingView.swift in Sources */,
+				F84C73F6273C56CF00BBD649 /* ShortcutItem.swift in Sources */,
+				F84C73F2273C564A00BBD649 /* JankyMaskApp.swift in Sources */,
+				F84C7403273C602500BBD649 /* Intro3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,8 +608,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBC01E327131A42005F0B91 /* ViewController.swift in Sources */,
+				F84C73F9273C56CF00BBD649 /* ShortcutView.swift in Sources */,
+				F84C73F7273C56CF00BBD649 /* ShortcutItem.swift in Sources */,
+				F84C7402273C602500BBD649 /* Intro2View.swift in Sources */,
+				F84C7406273C602500BBD649 /* Intro1View.swift in Sources */,
 				6EBC01BF27131A42005F0B91 /* AppDelegate.swift in Sources */,
+				F84C73FC273C5E4700BBD649 /* OnboardingView.swift in Sources */,
+				F84C7404273C602500BBD649 /* Intro3View.swift in Sources */,
+				F84C73F3273C564A00BBD649 /* JankyMaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,14 +665,6 @@
 				6EBC01B227131A42005F0B91 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6EBC01B427131A42005F0B91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EBC01B527131A42005F0B91 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6EBC01C027131A42005F0B91 /* Main.storyboard */ = {
@@ -838,10 +864,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -876,10 +903,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
