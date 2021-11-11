@@ -12,7 +12,7 @@ struct ShortcutView: View {
     let tokens = ShortcutItem.tokens()
     let columns = [GridItem(.adaptive(minimum: 80))]
     @Environment(\.openURL) var openURL
-    @State var isOnBoardingPresented: Bool = true
+    @State var isOnBoardingPresented: Bool = false
     
     var body: some View {
         
