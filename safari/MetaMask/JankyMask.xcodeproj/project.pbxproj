@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5A98302743ECB100122A1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A982F2743ECB100122A1B /* ContentView.swift */; };
 		6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AD27131A42005F0B91 /* AppDelegate.swift */; };
 		6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */; };
 		6EBC01B327131A42005F0B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */; };
-		6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01B427131A42005F0B91 /* Main.storyboard */; };
 		6EBC01BF27131A42005F0B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC01BE27131A42005F0B91 /* AppDelegate.swift */; };
 		6EBC01C227131A42005F0B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC01C027131A42005F0B91 /* Main.storyboard */; };
 		6EBC01CA27131A42005F0B91 /* JankyMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EBC01C927131A42005F0B91 /* JankyMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -130,6 +130,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6E5A982F2743ECB100122A1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EBC019E27131A40005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		6EBC019F27131A40005F0B91 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6EBC01A027131A40005F0B91 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -141,7 +142,6 @@
 		6EBC01AD27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6EBC01B227131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6EBC01B527131A42005F0B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EBC01B727131A42005F0B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EBC01BC27131A42005F0B91 /* JankyMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankyMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBC01BE27131A42005F0B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -275,8 +275,8 @@
 				6EBC01AD27131A42005F0B91 /* AppDelegate.swift */,
 				6EBC01AF27131A42005F0B91 /* SceneDelegate.swift */,
 				6EBC01B127131A42005F0B91 /* LaunchScreen.storyboard */,
-				6EBC01B427131A42005F0B91 /* Main.storyboard */,
 				6EBC01B727131A42005F0B91 /* Info.plist */,
+				6E5A982F2743ECB100122A1B /* ContentView.swift */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -475,7 +475,6 @@
 				6EBC01DA27131A42005F0B91 /* Main.html in Resources */,
 				6EBC01E027131A42005F0B91 /* Script.js in Resources */,
 				6EBC01E427131A42005F0B91 /* Assets.xcassets in Resources */,
-				6EBC01B627131A42005F0B91 /* Main.storyboard in Resources */,
 				6EBC01DE27131A42005F0B91 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +571,7 @@
 			files = (
 				6EBC01E227131A42005F0B91 /* ViewController.swift in Sources */,
 				6EBC01AE27131A42005F0B91 /* AppDelegate.swift in Sources */,
+				6E5A98302743ECB100122A1B /* ContentView.swift in Sources */,
 				6EBC01B027131A42005F0B91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,14 +631,6 @@
 				6EBC01B227131A42005F0B91 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6EBC01B427131A42005F0B91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EBC01B527131A42005F0B91 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6EBC01C027131A42005F0B91 /* Main.storyboard */ = {
@@ -840,7 +832,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -878,7 +870,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = JankyMask;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
