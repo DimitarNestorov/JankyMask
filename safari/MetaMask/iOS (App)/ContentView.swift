@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("You need to enable JankyMask in Safari")
                 .padding()
                 .font(.headline)
+                .multilineTextAlignment(.center)
             Group {
                 Image("Image 1")
                     .renderingMode(.original)
