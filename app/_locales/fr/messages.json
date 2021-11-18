@@ -30,7 +30,7 @@
     "message": "Log d'activité"
   },
   "addAcquiredTokens": {
-    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de MetaMask"
+    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de JankyMask"
   },
   "addAlias": {
     "message": "Ajouter un alias"
@@ -98,7 +98,7 @@
     "message": "Minuterie de déconnexion automatique (minutes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Réglez le temps d'inactivité en minutes avant que MetaMask ne se déconnecte automatiquement."
+    "message": "Réglez le temps d'inactivité en minutes avant que JankyMask ne se déconnecte automatiquement."
   },
   "average": {
     "message": "Moyen"
@@ -110,7 +110,7 @@
     "message": "Retour à Tous"
   },
   "backupApprovalInfo": {
-    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller MetaMask ou souhaitez accéder à votre portefeuille depuis un autre appareil."
+    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller JankyMask ou souhaitez accéder à votre portefeuille depuis un autre appareil."
   },
   "backupApprovalNotice": {
     "message": "Sauvegardez votre code de récupération secret pour garder votre portefeuille et vos fonds en sécurité."
@@ -138,13 +138,13 @@
     "message": "Votre navigateur internet n'est pas supporté..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask est designé et developpé en Californie."
+    "message": "JankyMask est designé et developpé en Californie."
   },
   "buyWithWyre": {
     "message": "Acheter ETH avec Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ETH directement sur votre compte MetaMask."
+    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ETH directement sur votre compte JankyMask."
   },
   "cancel": {
     "message": "Annuler"
@@ -159,7 +159,7 @@
     "message": "ID de chaîne"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser MetaMask pour Google Chrome."
+    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser JankyMask pour Google Chrome."
   },
   "clickToRevealSeed": {
     "message": "Cliquez ici pour révéler des mots secrets"
@@ -333,13 +333,13 @@
     "message": "Ne partagez jamais cette phrase avec qui que ce soit."
   },
   "endOfFlowMessage5": {
-    "message": "Attention à l'hameçonnage ! MetaMask ne vous demandera jamais spontanément votre phrase de départ."
+    "message": "Attention à l'hameçonnage ! JankyMask ne vous demandera jamais spontanément votre phrase de départ."
   },
   "endOfFlowMessage6": {
     "message": "Si vous avez besoin de sauvegarder à nouveau votre phrase de départ, vous pouvez la trouver dans Paramètres -> Sécurité."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ne peut pas récupérer votre phrase de départ. Renseignez-vous davantage."
+    "message": "JankyMask ne peut pas récupérer votre phrase de départ. Renseignez-vous davantage."
   },
   "endOfFlowMessage9": {
     "message": "En savoir plus."
@@ -450,7 +450,7 @@
     "message": "Connecter un portefeuille hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec MetaMask"
+    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec JankyMask"
   },
   "here": {
     "message": "ici",
@@ -476,7 +476,7 @@
     "message": "Importer un compte"
   },
   "importAccountMsg": {
-    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans MetaMask. Obtenir plus d'information sur les comptes importés"
+    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans JankyMask. Obtenir plus d'information sur les comptes importés"
   },
   "importAccountSeedPhrase": {
     "message": "Importez un compte avec une phrase mnémotechnique"
@@ -568,10 +568,10 @@
     "message": "Mémorisez cette phrase."
   },
   "metamaskDescription": {
-    "message": "MetaMask est un coffre sécurisé pour votre identité sur Ethereum."
+    "message": "JankyMask est un coffre sécurisé pour votre identité sur Ethereum."
   },
   "metamaskVersion": {
-    "message": "Version de MetaMask"
+    "message": "Version de JankyMask"
   },
   "mobileSyncText": {
     "message": "Veuillez entrer votre mot de passe pour confirmer que c'est bien vous !"
@@ -583,7 +583,7 @@
     "message": "Mes comptes"
   },
   "needEtherInWallet": {
-    "message": "Pour interagir avec des applications décentralisées à l'aide de MetaMask, vous avez besoin d'Ether dans votre portefeuille."
+    "message": "Pour interagir avec des applications décentralisées à l'aide de JankyMask, vous avez besoin d'Ether dans votre portefeuille."
   },
   "needImportFile": {
     "message": "Vous devez sélectionner un fichier à importer.",
@@ -627,7 +627,7 @@
     "message": "Nouveau mot de passe (min 8 caractères)"
   },
   "newToMetaMask": {
-    "message": "Nouveau sur MetaMask ?"
+    "message": "Nouveau sur JankyMask ?"
   },
   "newTotal": {
     "message": "Nouveau total"
@@ -684,7 +684,7 @@
     "message": "Participer à MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participez à MetaMetrics pour nous aider à améliorer MetaMask"
+    "message": "Participez à MetaMetrics pour nous aider à améliorer JankyMask"
   },
   "password": {
     "message": "Mot de passe"
@@ -863,7 +863,7 @@
     "message": "Selectionner un compte"
   },
   "selectAnAccountHelp": {
-    "message": "Selectionner le compte à afficher dans MetaMask"
+    "message": "Selectionner le compte à afficher dans JankyMask"
   },
   "selectEachPhrase": {
     "message": "Veuillez sélectionner chaque phrase afin de vous assurer qu'elle est correcte."
@@ -980,16 +980,16 @@
     "message": "Assurez-vous que personne d'autre ne regarde votre écran lorsque vous scannez ce code."
   },
   "syncWithMobileComplete": {
-    "message": "Vos données ont été synchronisées avec succès. Profitez de l'application mobile MetaMask !"
+    "message": "Vos données ont été synchronisées avec succès. Profitez de l'application mobile JankyMask !"
   },
   "syncWithMobileDesc": {
-    "message": "Vous pouvez synchroniser vos comptes et vos informations avec votre appareil mobile. Ouvrez l'application mobile MetaMask, allez dans « Paramètres » et appuyez sur « Synchroniser depuis l'extension de navigateur »"
+    "message": "Vous pouvez synchroniser vos comptes et vos informations avec votre appareil mobile. Ouvrez l'application mobile JankyMask, allez dans « Paramètres » et appuyez sur « Synchroniser depuis l'extension de navigateur »"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si vous ouvrez l'application MetaMask Mobile pour la première fois, suivez simplement les étapes dans votre téléphone."
+    "message": "Si vous ouvrez l'application JankyMask Mobile pour la première fois, suivez simplement les étapes dans votre téléphone."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scannez ce code avec votre application mobile MetaMask"
+    "message": "Scannez ce code avec votre application mobile JankyMask"
   },
   "syncWithMobileTitle": {
     "message": "Synchroniser avec le mobile"
@@ -1137,7 +1137,7 @@
     "message": "Seed du portefeuille"
   },
   "welcome": {
-    "message": "Bienvenue dans la Beta de MetaMask"
+    "message": "Bienvenue dans la Beta de JankyMask"
   },
   "welcomeBack": {
     "message": "Bienvenue à nouveau !"

@@ -20,7 +20,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.io/privacy.html"
+            href="https://invalid/privacy.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -31,7 +31,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.io/terms.html"
+            href="https://invalid/terms.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -42,7 +42,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.io/attributions.html"
+            href="https://invalid/attributions.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -54,7 +54,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://support.metamask.io"
+            href="https://invalid"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -65,7 +65,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.io/"
+            href="https://invalid/"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -76,7 +76,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.zendesk.com/hc/en-us/requests/new"
+            href="https://invalid/hc/en-us/requests/new"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"

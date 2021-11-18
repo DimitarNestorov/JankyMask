@@ -410,7 +410,7 @@ export default class AccountMenu extends Component {
         <div className="account-menu__divider" />
         <AccountMenuItem
           onClick={() => {
-            global.platform.openTab({ url: 'https://support.metamask.io' });
+            global.platform.openTab({ url: 'https://invalid' });
           }}
           icon={<img src="images/support.svg" alt={t('support')} />}
           text={t('support')}

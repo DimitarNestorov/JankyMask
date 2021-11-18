@@ -25,7 +25,6 @@ import {
   prepareForRetryGetQuotes,
   prepareToLeaveSwaps,
 } from '../../../ducks/swaps/swaps';
-import Mascot from '../../../components/ui/mascot';
 import {
   QUOTES_EXPIRED_ERROR,
   SWAP_FAILED_ERROR,
@@ -142,11 +141,11 @@ export default function AwaitingSwap({
       <a
         className="awaiting-swap__support-link"
         key="awaiting-swap-support-link"
-        href="https://support.metamask.io"
+        href="https://invalid"
         target="_blank"
         rel="noopener noreferrer"
       >
-        support.metamask.io
+        invalid
       </a>,
     ]);
     submitText = t('tryAgain');
@@ -221,13 +220,13 @@ export default function AwaitingSwap({
   return (
     <div className="awaiting-swap">
       <div className="awaiting-swap__content">
-        {!(swapComplete || errorKey) && (
+        {/* {!(swapComplete || errorKey) && (
           <Mascot
             animationEventEmitter={animationEventEmitter.current}
             width="90"
             height="90"
           />
-        )}
+        )} */}
         <div className="awaiting-swap__status-image">{statusImage}</div>
         <div className="awaiting-swap__header">{headerText}</div>
         <div className="awaiting-swap__main-descrption">{descriptionText}</div>

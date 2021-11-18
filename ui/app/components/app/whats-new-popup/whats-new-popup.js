@@ -23,7 +23,7 @@ function getActionFunctionById(id) {
     },
     3: () => {
       global.platform.openTab({
-        url: 'https://community.metamask.io/t/about-the-security-category/72',
+        url: 'https://community.invalid/t/about-the-security-category/72',
       });
     },
   };

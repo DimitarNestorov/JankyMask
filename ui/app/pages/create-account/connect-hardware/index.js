@@ -237,7 +237,7 @@ class ConnectHardwareForm extends Component {
             this.state.device,
             // eslint-disable-next-line react/jsx-key
             <a
-              href="https://metamask.zendesk.com/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
+              href="https://invalid/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
               key="hardware-connection-guide"
               target="_blank"
               rel="noopener noreferrer"

@@ -160,7 +160,7 @@ export default class SelectHardware extends Component {
       message: this.context.t('step2LedgerWalletMsg', [
         <a
           className="hw-connect__msg-link"
-          href="https://metamask.zendesk.com/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
+          href="https://invalid/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
           rel="noopener noreferrer"
           target="_blank"
           key="ledger-support-link"
@@ -199,7 +199,7 @@ export default class SelectHardware extends Component {
         message: this.context.t('step1TrezorWalletMsg', [
           <a
             className="hw-connect__msg-link"
-            href="https://metamask.zendesk.com/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
+            href="https://invalid/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet"
             rel="noopener noreferrer"
             target="_blank"
             key="trezor-support-link"

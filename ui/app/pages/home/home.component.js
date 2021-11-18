@@ -31,11 +31,11 @@ import {
 } from '../../helpers/constants/routes';
 
 const LEARN_MORE_URL =
-  'https://metamask.zendesk.com/hc/en-us/articles/360045129011-Intro-to-MetaMask-v8-extension';
+  'https://invalid/hc/en-us/articles/360045129011-Intro-to-MetaMask-v8-extension';
 const LEGACY_WEB3_URL =
-  'https://metamask.zendesk.com/hc/en-us/articles/360053147012';
+  'https://invalid/hc/en-us/articles/360053147012';
 const INFURA_BLOCKAGE_URL =
-  'https://metamask.zendesk.com/hc/en-us/articles/360059386712';
+  'https://invalid/hc/en-us/articles/360059386712';
 
 export default class Home extends PureComponent {
   static contextTypes = {
@@ -382,7 +382,7 @@ export default class Home extends PureComponent {
             <div className="home__support">
               {t('needHelp', [
                 <a
-                  href="https://support.metamask.io"
+                  href="https://invalid"
                   target="_blank"
                   rel="noopener noreferrer"
                   key="need-help-link"

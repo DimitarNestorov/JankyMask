@@ -248,7 +248,7 @@ export default class SignatureRequestOriginal extends Component {
               onClick={() => {
                 global.platform.openTab({
                   url:
-                    'https://metamask.zendesk.com/hc/en-us/articles/360015488751',
+                    'https://invalid/hc/en-us/articles/360015488751',
                 });
               }}
             >

@@ -44,7 +44,7 @@
     "message": "registro de actividades"
   },
   "addAcquiredTokens": {
-    "message": "Agregar los tokens que has adquirido usando MetaMask"
+    "message": "Agregar los tokens que has adquirido usando JankyMask"
   },
   "addAlias": {
     "message": "Añadir alias"
@@ -175,7 +175,7 @@
     "message": "Temporizador de cierre de sesión automático (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Establece el tiempo de inactividad en minutos antes de que MetaMask cierre la sesión automáticamente."
+    "message": "Establece el tiempo de inactividad en minutos antes de que JankyMask cierre la sesión automáticamente."
   },
   "average": {
     "message": "Promedio"
@@ -187,7 +187,7 @@
     "message": "Volver a Todo"
   },
   "backupApprovalInfo": {
-    "message": "Este código secreto es requerido para recuperar tu monedero en caso de que pierdas tu dispositivo, olvides tu contraseña, tengas que re-instalar MetaMask, o quieras acceder a tu monedero en otro dispositivo."
+    "message": "Este código secreto es requerido para recuperar tu monedero en caso de que pierdas tu dispositivo, olvides tu contraseña, tengas que re-instalar JankyMask, o quieras acceder a tu monedero en otro dispositivo."
   },
   "backupApprovalNotice": {
     "message": "Haz un respaldo de tu código de Recuperación Secreto para mantener tu monedero y tus fondos seguros."
@@ -218,7 +218,7 @@
     "message": "Tu navegador no está admitido..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fue diseñado y construido en California"
+    "message": "JankyMask fue diseñado y construido en California"
   },
   "buy": {
     "message": "Comprar"
@@ -227,7 +227,7 @@
     "message": "Comprar ETH con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre permite usar una tarjeta de débito para depositar ETH directo en su cuenta MetaMask."
+    "message": "Wyre permite usar una tarjeta de débito para depositar ETH directo en su cuenta JankyMask."
   },
   "bytes": {
     "message": "Bytes"
@@ -248,7 +248,7 @@
     "message": "ID de Cadena"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Hay que usar MetaMask en Google Chrome para poder conectarse con tu Monedero Físico."
+    "message": "Hay que usar JankyMask en Google Chrome para poder conectarse con tu Monedero Físico."
   },
   "clickToRevealSeed": {
     "message": "Haga clic aquí para revelar palabras secretas"
@@ -304,7 +304,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Conectar Con MetaMask"
+    "message": "Conectar Con JankyMask"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Tiene $1 cuentas conectadas con este sitio.",
@@ -314,7 +314,7 @@
     "message": "Tiene 1 cuenta conectada con este sitio."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask no está conectado a este sitio. Para conectarse a un sitio web3, busque el botón de conexión en su sitio."
+    "message": "JankyMask no está conectado a este sitio. Para conectarse a un sitio web3, busque el botón de conexión en su sitio."
   },
   "connectedSites": {
     "message": "Sitios conectados"
@@ -424,7 +424,7 @@
     "message": "Token Personalizado"
   },
   "dataBackupFoundInfo": {
-    "message": "Se hizo una copia de seguridad de algunos de los datos de su cuenta durante una instalación anterior de MetaMask. Esto podría incluir su configuración, contactos y tokens. ¿Le gustaría restaurar estos datos ahora?"
+    "message": "Se hizo una copia de seguridad de algunos de los datos de su cuenta durante una instalación anterior de JankyMask. Esto podría incluir su configuración, contactos y tokens. ¿Le gustaría restaurar estos datos ahora?"
   },
   "decimal": {
     "message": "Decimales de precisión"
@@ -547,13 +547,13 @@
     "message": "Nunca comparta la frase con nadie."
   },
   "endOfFlowMessage5": {
-    "message": "¡Cuidado con el phishing! MetaMask nunca le pedirá espontáneamente su frase semilla."
+    "message": "¡Cuidado con el phishing! JankyMask nunca le pedirá espontáneamente su frase semilla."
   },
   "endOfFlowMessage6": {
     "message": "Si necesita hacer una copia de seguridad de su frase semilla nuevamente, puede encontrarla en Configuración -> Seguridad."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no puede recuperar tu frase semilla. Saber más."
+    "message": "JankyMask no puede recuperar tu frase semilla. Saber más."
   },
   "endOfFlowMessage9": {
     "message": "Saber más."
@@ -597,7 +597,7 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageTitle": {
-    "message": "MetaMask encontró un error",
+    "message": "JankyMask encontró un error",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -743,7 +743,7 @@
     "message": "Conectarle un monedero físico"
   },
   "hardwareWalletsMsg": {
-    "message": "Seleccionar un monedero físico que quieres usar con MetaMask"
+    "message": "Seleccionar un monedero físico que quieres usar con JankyMask"
   },
   "here": {
     "message": "Aquí",
@@ -773,7 +773,7 @@
     "message": "Importar cuenta"
   },
   "importAccountMsg": {
-    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu MetaMask. Aprende más acerca de importar cuentas "
+    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu JankyMask. Aprende más acerca de importar cuentas "
   },
   "importAccountSeedPhrase": {
     "message": "Importar una cuenta con la frase semilla"
@@ -915,7 +915,7 @@
     "message": "Mensaje"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Ahora tienes más control sobre tus conexiones a la cuenta en MetaMask."
+    "message": "Ahora tienes más control sobre tus conexiones a la cuenta en JankyMask."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Clic para administrar tus cuentas conectadas."
@@ -927,10 +927,10 @@
     "message": "Conectándote a Ethereum y la Web Descentralizada."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Intercambios MetaMask está en mantenimiento. Por favor intente más tarde."
+    "message": "Intercambios JankyMask está en mantenimiento. Por favor intente más tarde."
   },
   "metamaskVersion": {
-    "message": "Versión de MetaMask"
+    "message": "Versión de JankyMask"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Siempre permitir optar por no participar a través de Configuración"
@@ -940,7 +940,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "MetaMask va a.."
+    "message": "JankyMask va a.."
   },
   "metametricsCommitmentsNeverCollectIP": {
     "message": "$1 recolecta tu dirección IP completa",
@@ -958,10 +958,10 @@
     "message": "Enviar eventos de vista de página y clics anónimos"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Ayúdanos a mejorar MetaMask"
+    "message": "Ayúdanos a mejorar JankyMask"
   },
   "metametricsOptInDescription": {
-    "message": "A MetaMask le gustaría recopilar datos de uso para entender mejor cómo interactúan nuestros usuarios con la extensión. Estos datos van a ser usados, de forma continua, para mejorar la usabilidad y experiencia de uso de nuestro producto y el ecosistema Ethereum."
+    "message": "A JankyMask le gustaría recopilar datos de uso para entender mejor cómo interactúan nuestros usuarios con la extensión. Estos datos van a ser usados, de forma continua, para mejorar la usabilidad y experiencia de uso de nuestro producto y el ecosistema Ethereum."
   },
   "mobileSyncText": {
     "message": "Por favor, ingrese su contraseña ¡para confirmar que es usted!"
@@ -973,7 +973,7 @@
     "message": "Mis cuentas"
   },
   "needEtherInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando MetaMask, necesitas tener Ether en tu monedero"
+    "message": "Para interactuar con una aplicación descentralizada usando JankyMask, necesitas tener Ether en tu monedero"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
@@ -1020,7 +1020,7 @@
     "message": "Nueva contraseña (mínimo [8] caracteres)"
   },
   "newToMetaMask": {
-    "message": "¿Es nuevo en MetaMask?"
+    "message": "¿Es nuevo en JankyMask?"
   },
   "newTotal": {
     "message": "Nuevo total"
@@ -1033,7 +1033,7 @@
   },
   "nextNonceWarning": {
     "message": "El nonce es más alto que el sugerido de $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to JankyMask's internal logic"
   },
   "noAccountsFound": {
     "message": "No se encontraron cuentas para su búsqueda"
@@ -1118,7 +1118,7 @@
     "message": "Participa en MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa en MetaMetrics para ayudarnos a mejorar MetaMask"
+    "message": "Participa en MetaMetrics para ayudarnos a mejorar JankyMask"
   },
   "password": {
     "message": "Contraseña"
@@ -1347,7 +1347,7 @@
     "message": "Selecciona una Cuenta"
   },
   "selectAnAccountHelp": {
-    "message": "Selecciona la cuenta que quiere ver en MetaMask"
+    "message": "Selecciona la cuenta que quiere ver en JankyMask"
   },
   "selectEachPhrase": {
     "message": "Selecciona cada frase para asegurarse de que sea correcta."
@@ -1475,7 +1475,7 @@
     "message": "Error al recuperar los logs de estado"
   },
   "stateLogFileName": {
-    "message": "Logs de Estado MetaMask"
+    "message": "Logs de Estado JankyMask"
   },
   "stateLogs": {
     "message": "Logs de Estado"
@@ -1545,7 +1545,7 @@
     "message": "Editar límite"
   },
   "swapEnableDescription": {
-    "message": "Esto es obligatorio y le da permiso a MetaMask para intercambiar su $1.",
+    "message": "Esto es obligatorio y le da permiso a JankyMask para intercambiar su $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFee": {
@@ -1593,10 +1593,10 @@
     "message": "Deslizamiento máximo"
   },
   "swapMetaMaskFee": {
-    "message": "Tarifa de MetaMask"
+    "message": "Tarifa de JankyMask"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "Siempre encontramos el mejor precio de las principales fuentes de liquidez. Una tarifa de $1% se incluye automáticamente en cada cotización, lo que respalda el desarrollo continuo para hacer que MetaMask sea aún mejor.",
+    "message": "Siempre encontramos el mejor precio de las principales fuentes de liquidez. Una tarifa de $1% se incluye automáticamente en cada cotización, lo que respalda el desarrollo continuo para hacer que JankyMask sea aún mejor.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotes": {
@@ -1604,7 +1604,7 @@
     "description": "$1 is the number of quotes that the user can select from when opening the list of quotes on the 'view quote' screen"
   },
   "swapNetworkFeeSummary": {
-    "message": "La tarifa de la red cubre el costo de procesar su intercambio y almacenarlo en la red $1. MetaMask no se beneficia de esta tarifa."
+    "message": "La tarifa de la red cubre el costo de procesar su intercambio y almacenarlo en la red $1. JankyMask no se beneficia de esta tarifa."
   },
   "swapNewQuoteIn": {
     "message": "Nuevas cotizaciones en $1",
@@ -1638,7 +1638,7 @@
     "message": "Si el precio cambia entre el momento en que se realiza el pedido y se confirma, se denomina \"deslizamiento\". Su intercambio se cancelará automáticamente si el deslizamiento excede su configuración de \"tolerancia de deslizamiento\"."
   },
   "swapQuoteIncludesRate": {
-    "message": "La cotización incluye una tarifa de MetaMask de $1%",
+    "message": "La cotización incluye una tarifa de JankyMask de $1%",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapQuoteNofN": {
@@ -1777,16 +1777,16 @@
     "message": "Asegúrese de que nadie más esté mirando su pantalla cuando escanee este código"
   },
   "syncWithMobileComplete": {
-    "message": "Tus datos se han sincronizado correctamente. ¡Disfruta de la aplicación móvil MetaMask!"
+    "message": "Tus datos se han sincronizado correctamente. ¡Disfruta de la aplicación móvil JankyMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Puede sincronizar sus cuentas e información con su dispositivo móvil. Abra la aplicación móvil MetaMask, vaya a \"Configuración\" y toque \"Sincronizar desde la extensión del navegador\""
+    "message": "Puede sincronizar sus cuentas e información con su dispositivo móvil. Abra la aplicación móvil JankyMask, vaya a \"Configuración\" y toque \"Sincronizar desde la extensión del navegador\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si acaba de abrir la aplicación móvil MetaMask por primera vez, simplemente siga los pasos en su teléfono."
+    "message": "Si acaba de abrir la aplicación móvil JankyMask por primera vez, simplemente siga los pasos en su teléfono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escanee este código con su aplicación móvil MetaMask"
+    "message": "Escanee este código con su aplicación móvil JankyMask"
   },
   "syncWithMobileTitle": {
     "message": "Sincronizar con el móvil"
@@ -1990,7 +1990,7 @@
     "description": "$1 is a clickable link."
   },
   "welcome": {
-    "message": "Bienvenido a MetaMask"
+    "message": "Bienvenido a JankyMask"
   },
   "welcomeBack": {
     "message": "¡Bienvenido de nuevo!"

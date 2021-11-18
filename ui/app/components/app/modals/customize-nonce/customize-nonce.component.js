@@ -72,7 +72,7 @@ const CustomizeNonce = ({
               className="customize-nonce-modal__link"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://metamask.zendesk.com/hc/en-us/articles/360015489251"
+              href="https://invalid/hc/en-us/articles/360015489251"
             >
               {t('learnMore')}
             </Button>

@@ -10,7 +10,7 @@ import Button from '../../../components/ui/button';
 import { getMostRecentOverviewPage } from '../../../ducks/history/history';
 
 const HELP_LINK =
-  'https://metamask.zendesk.com/hc/en-us/articles/360015489331-Importing-an-Account';
+  'https://invalid/hc/en-us/articles/360015489331-Importing-an-Account';
 
 class JsonImportSubview extends Component {
   state = {

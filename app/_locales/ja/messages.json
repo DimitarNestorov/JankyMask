@@ -248,7 +248,7 @@
     "message": "チェーンID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "ハードウェアウォレットへ接続するには、MetaMask on Google Chrome を使用する必要があります。"
+    "message": "ハードウェアウォレットへ接続するには、JankyMask on Google Chrome を使用する必要があります。"
   },
   "clickToRevealSeed": {
     "message": "シードフレーズを表示するにはここをクリックします"
@@ -930,7 +930,7 @@
     "message": "Ethereumの分散型Webに接続しています。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swapsはメンテナンス中です。後でもう一度確認してください。"
+    "message": "JankyMask Swapsはメンテナンス中です。後でもう一度確認してください。"
   },
   "metamaskVersion": {
     "message": "MetaMaskのバージョン"
@@ -1036,7 +1036,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce $1 は提案された値より大きいです",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to JankyMask's internal logic"
   },
   "noAccountsFound": {
     "message": "指定された検索クエリでアカウントは見つかりませんでした"
@@ -1475,7 +1475,7 @@
     "message": "状態ログの検索中にエラーが発生しました。"
   },
   "stateLogFileName": {
-    "message": "MetaMask State Logs"
+    "message": "JankyMask State Logs"
   },
   "stateLogs": {
     "message": "状態ログ"

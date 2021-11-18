@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 import getCaretCoordinates from 'textarea-caret';
 import TextField from '../../components/ui/text-field';
-import Mascot from '../../components/ui/mascot';
 import { DEFAULT_ROUTE } from '../../helpers/constants/routes';
 
 export default class UnlockPage extends Component {
@@ -143,11 +142,11 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
+            {/* <Mascot
               animationEventEmitter={this.animationEventEmitter}
               width="120"
               height="120"
-            />
+            /> */}
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>
           <div>{t('unlockMessage')}</div>
@@ -180,7 +179,7 @@ export default class UnlockPage extends Component {
           <div className="unlock-page__support">
             {t('needHelp', [
               <a
-                href="https://support.metamask.io"
+                href="https://invalid"
                 target="_blank"
                 rel="noopener noreferrer"
                 key="need-help-link"

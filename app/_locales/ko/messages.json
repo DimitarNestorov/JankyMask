@@ -221,7 +221,7 @@
     "message": "Wyre로 ETH 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre를 사용하면 체크카드를 이용해 ETH를 MetaMask 계정에 바로 예치할 수 있습니다."
+    "message": "Wyre를 사용하면 체크카드를 이용해 ETH를 JankyMask 계정에 바로 예치할 수 있습니다."
   },
   "bytes": {
     "message": "바이트"
@@ -415,7 +415,7 @@
     "message": "맞춤형 토큰"
   },
   "dataBackupFoundInfo": {
-    "message": "계정 데이터 일부가 MetaMask 이전 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구하시겠습니까?"
+    "message": "계정 데이터 일부가 JankyMask 이전 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구하시겠습니까?"
   },
   "decimal": {
     "message": "정밀도 소수 자릿수"
@@ -764,7 +764,7 @@
     "message": "계정 가져오기"
   },
   "importAccountMsg": {
-    "message": " 가져온 계정은 생성한 MetaMask 계정 시드 구문 원본에 연결되지 않습니다. 가져온 계정에 대해 자세히 알아보세요. "
+    "message": " 가져온 계정은 생성한 JankyMask 계정 시드 구문 원본에 연결되지 않습니다. 가져온 계정에 대해 자세히 알아보세요. "
   },
   "importAccountSeedPhrase": {
     "message": "시드 구문으로 계정 가져오기"
@@ -918,10 +918,10 @@
     "message": "이더리움 및 분산형 웹에 연결합니다."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps가 점검 중입니다. 나중에 다시 확인하세요."
+    "message": "JankyMask Swaps가 점검 중입니다. 나중에 다시 확인하세요."
   },
   "metamaskVersion": {
-    "message": "MetaMask 버전"
+    "message": "JankyMask 버전"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "언제든 설정을 통해 옵트아웃할 수 있습니다."
@@ -949,7 +949,7 @@
     "message": "익명화된 클릭 및 페이지뷰 이벤트 보내기"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "MetaMask 개선에 참여"
+    "message": "JankyMask 개선에 참여"
   },
   "metametricsOptInDescription": {
     "message": "MetaMask는 사용자의 확장 사용 방식을 더 잘 이해하기 위해 사용 데이터를 수집하려 합니다. 이 데이터는 제품과 이더리움 생태계의 사용 편의성과 사용자 경험을 지속적으로 개선하는 데 사용됩니다."
@@ -1027,7 +1027,7 @@
   },
   "nextNonceWarning": {
     "message": "임시값이 추천 임시값($1)보다 큼",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to JankyMask's internal logic"
   },
   "noAccountsFound": {
     "message": "검색 쿼리에 맞는 계정 없음"
@@ -1109,7 +1109,7 @@
     "message": "MetaMetrics에 참여"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics에 참여하여 MetaMask 개선에 도움을 주세요."
+    "message": "MetaMetrics에 참여하여 JankyMask 개선에 도움을 주세요."
   },
   "password": {
     "message": "암호"
@@ -1466,7 +1466,7 @@
     "message": "상태 로그를 가져오는 도중 오류가 발생했습니다."
   },
   "stateLogFileName": {
-    "message": "MetaMask 상태 로그"
+    "message": "JankyMask 상태 로그"
   },
   "stateLogs": {
     "message": "상태 로그"
@@ -1581,7 +1581,7 @@
     "message": "최대 슬리패지"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask 요금"
+    "message": "JankyMask 요금"
   },
   "swapMetaMaskFeeDescription": {
     "message": "당사는 매번 최상의 유동성 소스에서 최적 가격을 찾습니다. $1% 요금은 각 견적에 자동으로 반영되어, MetaMask를 더욱 개선하는 현재 진행 중인 개발을 지원합니다.",
@@ -1608,7 +1608,7 @@
     "message": "주문 시점과 확인 시점 사이에 가격이 변동되는 현상을 \"슬리패지\"라고 합니다. 슬리패지가 \"최대 슬리패지\" 설정을 초과하면 스왑이 자동으로 취소됩니다."
   },
   "swapQuoteIncludesRate": {
-    "message": "견적에는 $1% MetaMask 요금이 포함됩니다.",
+    "message": "견적에는 $1% JankyMask 요금이 포함됩니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapQuoteNofN": {
@@ -1741,16 +1741,16 @@
     "message": "이 코드를 스캔할 때는 다른 사람이 화면을 보지 못하게 하세요."
   },
   "syncWithMobileComplete": {
-    "message": "데이터가 동기화되었습니다. MetaMask 모바일 앱을 마음껏 이용하세요!"
+    "message": "데이터가 동기화되었습니다. JankyMask 모바일 앱을 마음껏 이용하세요!"
   },
   "syncWithMobileDesc": {
-    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. MetaMask 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
+    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. JankyMask 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "MetaMask 모바일 앱을 처음 열었다면 전화에 표시되는 단계를 따르세요."
+    "message": "JankyMask 모바일 앱을 처음 열었다면 전화에 표시되는 단계를 따르세요."
   },
   "syncWithMobileScanThisCode": {
-    "message": "MetaMask 모바일 앱으로 이 코드를 스캔하세요."
+    "message": "JankyMask 모바일 앱으로 이 코드를 스캔하세요."
   },
   "syncWithMobileTitle": {
     "message": "모바일과 동기화"
@@ -1868,7 +1868,7 @@
     "message": "다시 시도"
   },
   "typePassword": {
-    "message": "MetaMask 암호 입력"
+    "message": "JankyMask 암호 입력"
   },
   "unapproved": {
     "message": "승인되지 않음"
@@ -1950,7 +1950,7 @@
     "message": "시드 구문"
   },
   "welcome": {
-    "message": "MetaMask 방문을 환영합니다"
+    "message": "JankyMask 방문을 환영합니다"
   },
   "welcomeBack": {
     "message": "재방문을 환영합니다!"

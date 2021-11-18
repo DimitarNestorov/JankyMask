@@ -95,7 +95,7 @@ export default class EndOfFlowScreen extends PureComponent {
               target="_blank"
               key="metamaskSupportLink"
               rel="noopener noreferrer"
-              href="https://metamask.zendesk.com/hc/en-us/requests/new"
+              href="https://invalid/hc/en-us/requests/new"
             >
               <span className="first-time-flow__link-text">
                 {this.context.t('here')}
@@ -106,7 +106,7 @@ export default class EndOfFlowScreen extends PureComponent {
         <div className="first-time-flow__text-block end-of-flow__text-4">
           {`*${t('endOfFlowMessage8')}`}&nbsp;
           <a
-            href="https://metamask.zendesk.com/hc/en-us/articles/360015489591-Basic-Safety-Tips"
+            href="https://invalid/hc/en-us/articles/360015489591-Basic-Safety-Tips"
             target="_blank"
             rel="noopener noreferrer"
           >
